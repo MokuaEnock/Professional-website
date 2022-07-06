@@ -14,11 +14,14 @@ div {
   flex-direction: row;
   justify-content: space-between;
 }
-#sect1_div1 {
+/*div section 2*/
+#sect1_div2 {
   width: 50%;
   height: 100%;
 }
-#sect1_div2 {
+
+/*div section 1*/
+#sect1_div1 {
   width: 50%;
   height: 100%;
 }
@@ -30,4 +33,20 @@ div {
 #sect1_div1_info div {
   width: 20%;
   height: 10%;
+}
+
+/*==================Section 1========================*/
+#section2 {
+  margin-top: 5%;
+  height: 800px;
+  width: 100%;
+}
+#sect2_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.sect2_div_info {
+  width: 30%;
+  height: 80%;
 }
