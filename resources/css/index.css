@@ -1,0 +1,24 @@
+/*======Setting defaults=======*/
+html {
+  scroll-behavior: smooth;
+  background-color: #d0f0c0;
+}
+div {
+  border: 1px solid black;
+}
+/*==================Section 1========================*/
+#section1 {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#sect1_div1 {
+  width: 50%;
+  height: 100%;
+}
+#sect1_div2 {
+  width: 50%;
+  height: 100%;
+}
