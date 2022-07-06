@@ -22,3 +22,12 @@ div {
   width: 50%;
   height: 100%;
 }
+#sect1_div2_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#sect1_div1_info div {
+  width: 20%;
+  height: 10%;
+}
