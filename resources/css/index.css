@@ -59,6 +59,8 @@ div {
   display: flex;
   flex-direction: column;
   margin-top: 5%;
+  text-align: center;
+  font-size: 150%;
 }
 .sect3_cont {
   width: 100%;
@@ -96,7 +98,7 @@ div {
   line-height: 180%;
   word-spacing: 0.4em;
   border-radius: 10px;
-  box-shadow: 10px 10px 20px teal;
+  box-shadow: 5px 5px 20px teal;
   border: 9px teal double;
 }
 .client_divs h3 {
