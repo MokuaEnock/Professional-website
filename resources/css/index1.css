@@ -1,16 +1,16 @@
 html {
   background-color: grey;
+  font-family: "Alata", sans-serif;
 }
-div {
-  border: 1px black solid;
-}
+
 #container {
   width: 100%;
-  height: 2400px;
+  height: 2420px;
   font-size: 130%;
+  margin-top: 5%;
 }
 .div_cont {
-  height: 800px;
+  height: fit-content;
   width: 100%;
 }
 #cont_ml {
@@ -36,6 +36,8 @@ div {
 }
 .ml1_info1 div {
   width: 30%;
+  border-radius: 10px;
+  background-color: #d3d3d3;
 }
 #ml1_tools {
   width: 100%;
@@ -52,14 +54,41 @@ div {
   padding-left: 2%;
   padding-right: 2%;
   width: 25%;
+  border-radius: 10px;
+  background-color: #d3d3d3;
+  margin-top: 2%;
 }
 .ml1_icons {
   height: 100%;
   width: 100%;
 }
+#ml1_headings h2 {
+  font-size: 250%;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+#ml1_headings h3 {
+  font-size: 180%;
+  color: aqua;
+  padding-left: 10%;
+}
+#ml1_info1_heading {
+  font-size: 180%;
+  color: aqua;
+  text-align: left;
+  padding-left: 10%;
+}
+#ml1 p {
+  text-align: center;
+}
 /*machine learning container 2*/
 #ml2 h2 {
   text-align: center;
+  color: aqua;
+  font-size: 200%;
+  text-align: left;
+  padding-left: 10%;
 }
 #ml2 {
   display: flex;
@@ -69,4 +98,7 @@ div {
   width: 100%;
   height: 25%;
   text-align: center;
+  margin-top: 5.2%;
+  border-radius: 15px;
+  background-color: #d3d3d3;
 }
