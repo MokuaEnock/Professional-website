@@ -55,27 +55,27 @@ div {
 /*==================Section 3========================*/
 #section3 {
   width: 100%;
-  height: 1400px;
+  height: 2400px;
   display: flex;
   flex-direction: column;
-  margin-top: 5%;
-  text-align: center;
-  font-size: 150%;
 }
-.sect3_cont {
+.sect3_divs {
   width: 100%;
-  height: 30%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
 }
-.projects {
+#sect3_ml {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  width: 100%;
 }
-.projects_examples {
-  width: 30%;
-  height: 100%;
+#sect3_ml1 {
+  width: 45%;
 }
-
+#sect3_ml2 {
+  width: 45%;
+}
 /*==================Section 4========================*/
 #section4 {
   padding-top: 5%;
