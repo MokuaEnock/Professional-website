@@ -42,6 +42,7 @@ main {
   width: 30%;
   border-radius: 10px;
   background-color: #d3d3d3;
+  box-shadow: 5px 5px 15px black;
 }
 #ml1_tools {
   width: 100%;
@@ -61,16 +62,18 @@ main {
   border-radius: 10px;
   background-color: #d3d3d3;
   margin-top: 2%;
+  box-shadow: 5px 5px 15px black;
 }
 .ml1_icons {
   height: 100%;
   width: 100%;
 }
-#ml1_headings h2 {
+#cont_ml h2 {
   font-size: 250%;
-  color: white;
+  color: aqua;
   text-align: center;
   text-decoration: underline;
+  line-height: 200%;
 }
 #ml1_headings h3 {
   font-size: 180%;
@@ -105,4 +108,5 @@ main {
   margin-top: 5.2%;
   border-radius: 15px;
   background-color: #d3d3d3;
+  box-shadow: 5px 5px 15px black;
 }
