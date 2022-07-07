@@ -110,3 +110,30 @@ main {
   background-color: #d3d3d3;
   box-shadow: 5px 5px 15px black;
 }
+@keyframes dance {
+  0% {
+    border: 5px double aqua;
+    background-color: gray;
+    opacity: 0.8;
+    color: #d3d3d3;
+    box-shadow: 10px 10px 20px black;
+  }
+  50% {
+    transform: rotateX(10deg);
+    box-shadow: 5px 5px 16px black;
+    opacity: o.5;
+  }
+  100% {
+    border: 5px double gray;
+    background-color: aqua;
+    opacity: 0.8;
+    color: black;
+    box-shadow: 10px 10px 20px black;
+  }
+}
+.ml2_divs:hover {
+  animation-name: dance;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: both;
+}
