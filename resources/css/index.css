@@ -1,0 +1,57 @@
+* {
+  font-family: 'Uchen', serif;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(128, 128, 128, .8);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* ======================Navigation======================= */
+nav {
+  width: 100%;
+  height: 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: white solid thin;
+
+}
+
+nav h1 {
+  width: 10%;
+  height: 100%;
+  font-size: 4vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav div {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav_cont {
+  width: 65%;
+  height: 50%;
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+#nav_cont a:hover {
+  text-decoration: overline;
+  text-decoration-color: aqua;
+  text-decoration-thickness: 0.3vw;
+}
