@@ -91,4 +91,20 @@ main {
   height: 100%;
   font-size: 3vw;
   border: thin solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main_cont div {
+  width: 50%;
+  height: 40%;
+  border: thick solid black;
+  border-radius: 99%;
+}
+
+.main_cont div img {
+  width: 100%;
+  border-radius: 40%;
 }
