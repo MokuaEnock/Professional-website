@@ -1,8 +1,8 @@
 * {
   font-family: 'Uchen', serif;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 0.1%;
+  margin-right: 0.1%;
+
 }
 
 body {
@@ -23,6 +23,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   border: black solid thin;
+  position: -ms-page;
 
 }
 
@@ -37,7 +38,7 @@ nav h1 {
 }
 
 nav div {
-  width: 65%;
+  width: 80%;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -48,14 +49,13 @@ nav div {
 #nav_cont {
   width: 65%;
   height: 40%;
-  font-size: 2vw;
+  font-size: 1.8vw;
   font-weight: 500;
 }
 
 #nav_cont select {
   font-size: 1.5vw;
   width: 30%;
-
   border: none;
   background-color: transparent;
   display: flex;
@@ -64,9 +64,31 @@ nav div {
   align-items: center;
 }
 
+#nav_cont select:focus {
+  outline: none;
+}
+
 #nav_cont a:hover {
   text-decoration: overline;
   text-decoration-color: black;
   text-decoration-thickness: 0.3vw;
 }
 
+/* =====================Landing page============================= */
+main {
+  width: 100%;
+  height: 46vw;
+  background-color: rgba(128, 128, 128, 0.1);
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_cont {
+  width: 50%;
+  height: 100%;
+  font-size: 3vw;
+  border: thin solid black;
+}
