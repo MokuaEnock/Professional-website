@@ -12,6 +12,12 @@
       href="https://fonts.googleapis.com/css2?family=Uchen&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav>
@@ -21,7 +27,7 @@
           <a href="#">About</a>
           <a href="#">Portfolio</a>
           <a href="#">Resume</a>
-
+          <label for="services">services</label>
           <select name="services" id="services">
             <option value="ml">
               <a href="#section_ml">Machine Learning</a>
@@ -29,7 +35,7 @@
             <option value="wd">
               <a href="#section_wd">Web Development</a>
             </option>
-            <option value="da"><a href="#section_ml">Data Analysis</a></option>
+            <option value="da"><a href="#section_da">Data Analysis</a></option>
           </select>
         </div>
       </div>
@@ -52,8 +58,19 @@
     </main>
     <!-- ================Machine Learning=================== -->
     <section id="section_ml">
-      <div class="ml_cont"></div>
-      <div class="ml_cont"></div>
+      <h2>Machine Learning</h2>
+      <header>
+        <a href="#">Skills</a>
+        <a href="#">Education</a>
+        <a href="#">Projects</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Research</a>
+      </header>
+      <div id="ml_skills"></div>
+      <div id="ml_ed"></div>
+      <div id="ml_projects"></div>
+      <div id="ml_test"></div>
+      <div id="ml_research"></div>
     </section>
     <!-- ================Web Development=================== -->
     <section id="section_wd">
