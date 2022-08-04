@@ -1,5 +1,5 @@
 * {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Taviraj', serif;
   margin: 0;
   color: white;
 
@@ -96,18 +96,6 @@ main {
   align-items: center;
 }
 
-.main_cont div {
-  width: 50%;
-  height: 40%;
-  border: thick solid black;
-  border-radius: 99%;
-}
-
-.main_cont div img {
-  width: 100%;
-  border-radius: 40%;
-}
-
 /* ===================Sections default============================= */
 section {
   width: 100%;
@@ -118,24 +106,60 @@ section {
 
 }
 
-section div {
-  border: white solid thin;
-}
-
 /* ===================Section machine learning============================= */
 #section_ml header {
   width: 100%;
   height: 5vw;
-  border: white solid thin;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
-#section_ml h2{
-  text-align: center;
+
+#section_ml a {
+  width: 15%;
+  height: 100%;
+  background-color: white;
+  color: #FF0800;
+  font-size: 2vw;
+  border-radius: 0.4vw;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
-#section_ml>div {
-  margin-top: 1%;
+
+#section_ml a:hover {
+  width: 13%;
+  height: 90%;
+  color: #FF0800;
+}
+
+#section_ml h2 {
+  text-align: center;
+  font-size: 2.5vw;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+#ml_skills{
+  height: 30vw;
+  margin-top: 3%;
   width: 100%;
+  border-top: thick white double;
+}
+
+#ml_skills h3{
+  width: 15%;
+  height: 10%;
+  color: #FF0800;
+  font-size: 1.8vw;
+  border-radius: 0.5vw;
+  margin-top: -2%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
