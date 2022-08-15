@@ -42,3 +42,37 @@ main {
   justify-content: space-between;
   align-items: center;
 }
+
+
+main>div {
+  border: solid thin white;
+  width: 50%;
+  height: 100%;
+}
+
+#m_cont1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#m_cont1>div {
+  border: solid thin white;
+}
+
+#m_cont1_1 {
+  height: 70%;
+  width: 90%;
+
+}
+
+#m_cont1_2 {
+  height: 28%;
+  width: 100%;
+
+}
+
+#m_cont2 {
+  background-color: #fcfc03;
+}
