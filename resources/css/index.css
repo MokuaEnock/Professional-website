@@ -1,4 +1,44 @@
-body {
+html {
   background-color: #000094;
+}
+
+body {
   color: #fcfc03;
+}
+
+
+/* header */
+header {
+  width: 100%;
+  height: 4vw;
+  border-bottom: thin #fcfc03 solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#h_logo {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#h_logo img {
+  width: 80%;
+}
+
+
+/* main */
+main {
+  width: 100%;
+  height: 46vw;
+  border: solid thin white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
