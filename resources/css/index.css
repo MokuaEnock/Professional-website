@@ -141,6 +141,7 @@ main>div {
 }
 
 #sect1_cont2 {
+  border-top: thick solid #fcfc03;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -216,4 +217,9 @@ main>div {
 
 #sect1_cont12>img {
   width: 30%;
+}
+
+/* section testimonials */
+#test {
+  border: solid white thin;
 }
