@@ -179,3 +179,20 @@ main>div {
 .sect1_cont2s>a>img {
   height: 100%;
 }
+
+#sect1_cont1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#sect1_cont1 h2 {
+  font-size: 4vw;
+  line-height: 4.3vw;
+}
+
+#sect1_cont1 p {
+  font-size: 1.5vw;
+  color: white;
+}
