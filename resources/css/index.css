@@ -60,12 +60,19 @@ main>div {
   align-items: flex-end;
 }
 
-#m_cont1>div {}
-
 #m_cont1_1 {
   height: 70%;
   width: 90%;
+}
 
+#m_cont1_11 {
+  border: white thin solid;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 #m_cont1 h1 {
@@ -74,22 +81,23 @@ main>div {
 
 #m_p1 {
   font-size: 1.8vw;
+  color: white;
 }
 
 #m_buttons {
+  border: white solid thin;
   width: 100%;
-  height: 10%;
+  height: 20%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
 
-#m_buttons button {}
 
 #b_hire {
   width: 25%;
-  height: 100%;
+  height: 70%;
   border: none;
   background-color: #fcfc03;
   color: #000094;
@@ -101,7 +109,7 @@ main>div {
 
 #b_pro {
   width: 25%;
-  height: 80%;
+  height: 50%;
   background-color: transparent;
   color: #fcfc03;
   border: thin solid #fcfc03;
@@ -116,12 +124,20 @@ main>div {
 }
 
 #m_cont1_2 {
-  height: 30%;
+  height: 29%;
   width: 100%;
 
 }
 
-#m_cont2 {}
+#m_cont1_2{
+  background-color: white;
+}
+
+#m_clients {
+  height: 30%;
+  width: 100%;
+  border: white thin solid;
+}
 
 /* section serices */
 
@@ -222,4 +238,6 @@ main>div {
 /* section testimonials */
 #test {
   border: solid white thin;
+  height: 30vw;
+  width: 100%;
 }
