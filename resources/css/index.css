@@ -152,7 +152,7 @@ main>div {
 
 .sect1_cont2s {
   width: 90%;
-  border-top: #fcfc03 solid thin;
+  border-top: #fcfc03 solid 0.3vw;
   height: 28%;
   display: flex;
   flex-direction: column;
@@ -164,7 +164,18 @@ main>div {
   font-size: 3vw;
 }
 
-.sect1_cont2s>p {
+.sect1_cont2s>a {
+  text-decoration: none;
   font-size: 1.8vw;
   color: white;
+  width: 50%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sect1_cont2s>a>img {
+  height: 100%;
 }
