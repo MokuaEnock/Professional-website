@@ -128,7 +128,6 @@ main>div {
 #services {
   width: 100%;
   height: 30vw;
-  border-top: thin solid white;
   background-color: #000094;
   display: flex;
   flex-direction: row;
@@ -139,7 +138,6 @@ main>div {
 #services>div {
   width: 48%;
   height: 100%;
-  border: solid white thin;
 }
 
 #sect1_cont2 {
@@ -181,6 +179,7 @@ main>div {
 }
 
 #sect1_cont1 {
+  border-top: thick solid white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -215,6 +214,6 @@ main>div {
   align-items: center;
 }
 
-#sect1_cont12>img{
- width: 30%;
+#sect1_cont12>img {
+  width: 30%;
 }
