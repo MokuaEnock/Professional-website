@@ -46,7 +46,7 @@ main {
   align-items: center;
   justify-content: center;
   background-position: center;
-  background-image: url('/resources/images/background.png');
+  background-image: url('https://github.com/MokuaEnock/Professional-website/blob/master/resources/images/background.png?raw=true');
 
 }
 
@@ -127,7 +127,7 @@ main {
   align-items: center;
   justify-content: center;
   background-position: center;
-  background-image: url('/resources/images/background.png');
+  background-image: url('https://github.com/MokuaEnock/Professional-website/blob/master/resources/images/background.png?raw=true');
 }
 
 #services>div {
