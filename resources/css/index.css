@@ -45,7 +45,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: url(/resources/images/background.png);
+  background-image: url("/resources/images/background.png");
   background-position: center;
 }
 
@@ -125,7 +125,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: url(/resources/images/background.png);
+  background-image: url("/resources/images/background.png");
   background-position: center;
 }
 
