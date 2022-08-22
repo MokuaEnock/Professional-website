@@ -46,6 +46,8 @@ main {
   align-items: center;
   justify-content: center;
   background-position: center;
+  background-image: url('../images/background.png');
+
 }
 
 #m_cont1 {
@@ -125,6 +127,7 @@ main {
   align-items: center;
   justify-content: center;
   background-position: center;
+  background-image: url('../images/background.png');
 }
 
 #services>div {
