@@ -1,6 +1,6 @@
 html {
   background-color: #000094;
-  font-family: 'Monda', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 body {
@@ -45,7 +45,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: url("/resources/images/background.png");
+  background-image: url(/background.png);
   background-position: center;
 }
 
@@ -80,12 +80,12 @@ main {
 
 
 #me {
-  width: 40%;
+  width: 30%;
   position: absolute;
-  top: 1vw;
+  top: 53vw;
   opacity: .7;
-  left: 55vw;
-  z-index: -1;
+  left: 22vw;
+  z-index: 0;
   background-color: #000094;
 
 }
@@ -125,7 +125,8 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-image: url("/resources/images/background.png");
+  background-image: url(/background.png);
+
   background-position: center;
 }
 
@@ -227,6 +228,12 @@ main {
 /* section testimonials */
 #test {
   border: solid white thin;
-  height: 30vw;
+  background-color: #000094;
+  height: 35vw;
   width: 100%;
+}
+
+#test h2{
+font-size: 4vw;
+padding-left: 2%;
 }
