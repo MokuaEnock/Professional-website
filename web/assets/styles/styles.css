@@ -49,6 +49,10 @@ header {
 /* section 1 - projects */
 #section1{
   border: thin solid;
-  height: 40vw;
+  height: 44.9vw;
   background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
