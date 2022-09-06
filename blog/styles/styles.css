@@ -159,7 +159,12 @@ pre {
 }
 
 
-
+#main_par3{
+  width: 100%;
+  height: 30%;
+  font-size: 1.6vw;
+  line-height: 2.5vw;
+}
 
 /* m_cont3 */
 #m_cont3 {
