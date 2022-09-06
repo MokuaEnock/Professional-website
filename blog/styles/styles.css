@@ -148,8 +148,15 @@ pre {
   letter-spacing: normal;
   word-break: break-all;
   background-color: white;
+  margin-bottom: 3%;
 }
 
+#main_par2{
+  width: 100%;
+  height: 30%;
+  font-size: 1.6vw;
+  line-height: 2.5vw;
+}
 
 
 
