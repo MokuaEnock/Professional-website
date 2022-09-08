@@ -5,6 +5,8 @@ html {
 
 body {
   color: #fcfc03;
+  background-position: center;
+  background-image: url('https://github.com/MokuaEnock/Professional-website/blob/master/resources/images/background.png?raw=true');
 }
 
 * {
@@ -45,8 +47,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-position: center;
-  background-image: url('https://github.com/MokuaEnock/Professional-website/blob/master/resources/images/background.png?raw=true');
+  background-color: transparent;
 
 }
 
@@ -121,13 +122,12 @@ main {
 #services {
   width: 99.5%;
   height: 35vw;
-  background-color: #000094;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-position: center;
-  background-image: url('https://github.com/MokuaEnock/Professional-website/blob/master/resources/images/background.png?raw=true');
+
 }
 
 #services>div {
@@ -194,10 +194,12 @@ main {
   font-size: 4.5vw;
   line-height: 4.3vw;
 }
+
 #sect1_cont1>p {
   font-size: 2vw;
   margin-top: 3%;
 }
+
 #sect1_cont1 p {
   font-size: 1.5vw;
   color: white;
@@ -233,7 +235,7 @@ main {
   width: 100%;
 }
 
-#test h2{
-font-size: 4vw;
-padding-left: 2%;
+#test h2 {
+  font-size: 4vw;
+  padding-left: 2%;
 }
