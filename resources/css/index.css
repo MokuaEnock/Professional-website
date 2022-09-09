@@ -77,7 +77,23 @@ header {
   background-color: rgb(255, 255, 255, 0.1);
 }
 
+#header_info>select{
+  height: 100%;
+  width: 35%;
+  font-size: 2vw;
+  color: white;
+  border: none;
+  background-color: transparent;
+}
 
+#header_info>select>option{
+  background-color: #003399;
+  border-top: thin solid white;
+}
+
+#header_info>select:focus{
+  outline: none;
+}
 
 /* main */
 main {
