@@ -77,7 +77,7 @@ header {
   background-color: rgb(255, 255, 255, 0.1);
 }
 
-#header_info>select{
+#header_info>select {
   height: 100%;
   width: 35%;
   font-size: 2vw;
@@ -86,12 +86,12 @@ header {
   background-color: transparent;
 }
 
-#header_info>select>option{
+#header_info>select>option {
   background-color: #003399;
   border-top: thin solid white;
 }
 
-#header_info>select:focus{
+#header_info>select:focus {
   outline: none;
 }
 
@@ -137,17 +137,6 @@ main {
 }
 
 
-#me {
-  width: 30%;
-  position: absolute;
-  top: 53vw;
-  opacity: .7;
-  left: 22vw;
-  z-index: 0;
-  background-color: #000094;
-
-}
-
 #socials {
   margin-top: 4%;
   width: 70%;
@@ -183,11 +172,12 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-
+margin-bottom: 3%;
 }
 
 #services>div {
   width: 48%;
+  background-color: #003399;
   height: 100%;
 }
 
@@ -286,7 +276,6 @@ main {
 /* section testimonials */
 #test {
   border: solid white thin;
-  background-color: #000094;
   height: 35vw;
   width: 100%;
 }
@@ -294,4 +283,20 @@ main {
 #test h2 {
   font-size: 4vw;
   padding-left: 2%;
+}
+
+
+/* me picture */
+#me {
+  width: 40%;
+  height: 30vw;
+  position: absolute;
+  top: 10vw;
+  left: 70vw;
+  z-index: -1;
+}
+
+#me>img{
+  width: 60%;
+  opacity: 0.6;
 }
