@@ -280,16 +280,22 @@ main {
 /* section testimonials */
 #test {
   border: solid white thin;
-  height: 35vw;
   width: 99%;
+  height: fit-content;
 }
 
 #test h2 {
   font-size: 4vw;
   padding-left: 2%;
+  height: 8%;
 }
 
-
+.slides{
+  width: 100%;
+  height: 30vw;
+  background-color: white;
+  border: thin solid #000094;
+}
 /* me picture */
 #me {
   width: 25%;
@@ -458,7 +464,7 @@ main {
 
 }
 
-#form_cont_submit{
+#form_cont_submit {
   width: 100%;
   height: 10%;
   display: flex;
@@ -467,7 +473,7 @@ main {
   align-items: center;
 }
 
-#form_cont_submit>button{
+#form_cont_submit>button {
   display: flex;
   flex-direction: column;
   justify-content: center;
