@@ -50,18 +50,24 @@ header {
 
 }
 
-#home_b{
+#home_b {
   width: 100%;
   height: 40%;
 }
 
-#home_b>button{
+#home_b>a {
+  height: 100%;
   width: 60%;
+}
+
+#home_b>a>button {
+  width: 100%;
   height: 100%;
   font-size: 2vw;
   border: thin solid;
   background-color: white;
 }
+
 #header_cont {
   width: 100%;
   height: 55%;
