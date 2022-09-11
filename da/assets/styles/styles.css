@@ -18,8 +18,29 @@ header {
   height: 49vw;
   background-color: white;
   border: thin solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
+#logo {
+  width: 100%;
+  height: 20%;
+  background-color: bisque;
+}
+
+#header_cont {
+  width: 100%;
+  height: 55%;
+  background-color: bisque;
+}
+
+#header_foot{
+  width: 100%;
+  height: 20%;
+  background-color: bisque;
+}
 
 /* main */
 main {
