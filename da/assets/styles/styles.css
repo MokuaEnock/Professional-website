@@ -229,8 +229,65 @@ main {
 
 #skills_cont {
   width: 100%;
-  height: 31vw;
+  min-height: 31vw;
   background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: thin solid;
+}
+
+#scrapping {
+  width: 100%;
+  height: 31vw;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: thin solid;
+
+}
+
+.skill_img {
+  width: 30%;
+  height: 100%;
+  border: thin solid;
+}
+
+.skill_cont {
+  width: 70%;
+  height: 100%;
+  border: thin solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: thin solid;
+}
+
+.skill_info{
+  width: 100%;
+  height: 65%;
+  background-color: aquamarine;
+}
+
+.skill_repos{
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: thin solid;
+}
+
+.skill_repos>a{
+  width: 24%;
+  height: 100%;
+  border: thin solid;
+  border-radius: 0;
 }
 
 /* Certifications */
