@@ -2,3 +2,31 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+
+/* header */
+header {
+  width: 25%;
+  height: 49vw;
+  background-color: white;
+  border: thin solid;
+}
+
+
+/* main */
+main {
+  width: 73%;
+  min-height: 49vw;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  background-color: white;
+  border: thin solid;
+}
